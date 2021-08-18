@@ -1,0 +1,41 @@
+{
+  "pages":[ 
+ "pages/index/index",
+"pages/xqj/xqj",
+"pages/my/my",
+ "pages/search_xq/search_xq",
+   "pages/about/about",
+    "pages/dl/dl",
+    "pages/xq/xq"
+  
+   
+    
+    
+  ],
+  "tabBar": {
+    "list": [
+     
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/img/shouy1.png",
+        "selectedIconPath": "/img/shouy2.png"
+      },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "/img/gongnreng1.png",
+      "selectedIconPath": "/img/gongnreng2.png"
+    }
+  
+  ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微群人脉",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
